@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BlogList from "./BlogList";
+import image from "../src/img/Bloggers and influencers writing articles.jpg";
 
 const Home = () => {
     const [blogs, setBlogs] = useState([
@@ -15,6 +16,9 @@ const Home = () => {
 
     return ( 
         <div className="home">
+            <div className="div heroImage">
+        <img src={image} height={500} width={750}/>
+      </div>
             <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
         </div>
      );
