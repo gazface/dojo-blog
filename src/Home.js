@@ -17,7 +17,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <div className="div heroImage">
-        <img src={image} height={500} width={750}/>
+        <img src={image} height={500} width={750} alt="bloggers blogging"/>
       </div>
             <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
         </div>
