@@ -48,3 +48,11 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+
+.heroImage {
+  max-width: 100%;
+}
+
+.heroImage img {
+  max-width: 100%;
+}
