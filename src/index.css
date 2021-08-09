@@ -48,20 +48,6 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
-
-.heroImage {
-  max-width: 100%;
-}
-
-.heroImage img {
-  max-width: 100%;
-}
-
-.preloader {
-  max-width: 250px;
-  align-items: center;
-}
-
-.preloader img {
-  max-width: 125px;
+.blog-preview a {
+  text-decoration: none;
 }
