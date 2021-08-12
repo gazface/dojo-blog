@@ -79,6 +79,8 @@
 .create label {
   text-align: left;
   display: block;
+  font-weight: bold;
+  color: #f1356d;
 }
 .create h2 {
   font-size: 20px;
