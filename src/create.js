@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useHistory } from 'react-router-dom';
+import { ReactComponent as Image } from './img/publish.svg';
 
 const Create = () => {
   const [title, setTitle] = useState('');
@@ -34,6 +35,10 @@ const Create = () => {
     return (
       <div className="create">
         
+      <div>
+        <Image />
+      </div>
+
         <h2>Add a New Blog</h2>
         
         <form onSubmit={handleSubmit}>

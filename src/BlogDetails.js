@@ -1,6 +1,7 @@
   
 import { useHistory, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
+import { ReactComponent as Image } from './img/blog-post.svg';
 
 const BlogDetails = () => {
   const { id } = useParams();
@@ -17,6 +18,9 @@ const BlogDetails = () => {
 
   return (
     <div className="blog-details">
+      <div>
+        <Image />
+      </div>
       { isPending && <div>Loading...</div> }
       { error && <div>{ error }</div> }
       { blog && (
